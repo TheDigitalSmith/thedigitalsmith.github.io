@@ -4109,3 +4109,77 @@ input, select, textarea {
 					}
 
 	}
+
+	/* Make sure that padding behaves as expected */
+/* * {box-sizing:border-box} */
+
+/* Container for skill bars */
+.containerSkill {
+  width: 100%; /* Full width */
+  background-color:grey; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  margin-bottom: 10px;
+  color: white; /* White text color */
+}
+
+.node{animation: node 2s; width: 80%; background-color:  #2196F3;} /* Green */
+.express {animation: express 2s; width: 90%; background-color: #2196F3;} /* Blue */
+.mongodb {animation: mongodb 2s; width: 70%; background-color: #2196F3;} /* Red */
+.react {animation: react 2s; width: 60%; background-color: #2196F3;} /* Dark Grey */
+.html {animation: html 2s; width: 60%; background-color: #2196F3;} /* Dark Grey */
+.postgresql {animation: postgresql 2s; width: 50%; background-color: #2196F3;} /* Dark Grey */
+
+@keyframes node{
+	0%{
+		width:0%;
+	}
+	100%{
+		width: 80%;
+	}
+}
+
+@keyframes express{
+	0%{
+		width:0%;
+	}
+	100%{
+		width: 90%;
+	}
+}
+@keyframes mongodb{
+	0%{
+		width:0%;
+	}
+	100%{
+		width: 70%;
+	}
+}
+@keyframes react{
+	0%{
+		width:0%;
+	}
+	100%{
+		width: 60%;
+	}
+}
+@keyframes html{
+	0%{
+		width:0%;
+	}
+	100%{
+		width: 60%;
+	}
+}
+@keyframes postgresql{
+	0%{
+		width:0%;
+	}
+	100%{
+		width: 50%;
+	}
+}
